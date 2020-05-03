@@ -1,0 +1,18 @@
+var firstnumber = prompt("Enter ur fist number");
+var secondnumber = prompt("Enter ur second number");
+var sub = Number(firstnumber) - Number(secondnumber);
+var mul = Number(firstnumber) * Number(secondnumber);
+var div = Number(firstnumber) / Number(secondnumber);
+var sum = Number(firstnumber) + Number(secondnumber);
+var response = prompt("What do u want sir, multiplication, division or subtraction or addition?");
+if (response === "subtraction") {
+  alert("The answer is " + sub);
+} else if (response === "addition"){
+  alert("The answer is " + sum);
+} else if (response === "multiplication"){
+  alert("The answer is " + mul);
+} else if (response === "division"){
+  alert("The answer is " + div);
+} else{
+  alert("Wrong input");
+}
