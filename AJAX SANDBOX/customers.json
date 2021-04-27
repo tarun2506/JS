@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "name": "Jhon Doe",
+    "company": "123 Designs",
+    "phone": "333-444-222"
+  },
+
+  {
+    "id": 2,
+    "name": "Steave Jobs",
+    "company": "Apple",
+    "phone": "33423232323"
+  },
+
+  {
+    "id": 3,
+    "name": "Bill Gates",
+    "company": "Microsoft",
+    "phone": "4556652"
+  }
+]
