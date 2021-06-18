@@ -1,0 +1,36 @@
+@font-face {
+  font-family: azonix;
+  src: url(./font/Azonix-1VB0.otf);
+}
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  overflow: hidden;
+}
+
+h1 {
+  font-size: 4rem;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  line-height: 100vh;
+}
+
+span {
+  transition: all 1s ease;
+  transform: translateY(50px);
+  display: inline-block;
+  opacity: 0;
+}
+
+span.fade {
+  transform: translateY(0px);
+  opacity: 1;
+}
